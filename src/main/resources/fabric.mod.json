@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "nivekflash",
+  "version": "${version}",
+  "name": "Nivek Flash",
+  "description": "Poderes do Flash: 20 niveis de velocidade, raios, correr na agua e vibracao.",
+  "authors": ["Nivek"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.nivek.flash.NivekFlash"],
+    "client": ["com.nivek.flash.client.NivekFlashClient"]
+  },
+  "mixins": ["nivekflash.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
